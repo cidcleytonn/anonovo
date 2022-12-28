@@ -1,0 +1,27 @@
+body
+{
+    margin: 10;
+    padding: 10;
+    display: grid;
+    overflow: hidden;
+    height: 100vh;
+    background-image: url('Noite.jpeg');
+    font-family: Comic Sans MS, Magic Christmas;
+}
+.bnt{
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 10px 10px;
+  width: 15.0rem;
+  background-image: url('ceu.jpg');
+  border: 2px solid black;
+  border-radius: 5px;
+  position: relative;
+  user-select: none;
+  cursor: pointer;
+}
+a{
+  font-family: crismas;
+  text-decoration: none;
+  color: #fff
+}  

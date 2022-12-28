@@ -1,0 +1,46 @@
+body
+{
+    margin: 10;
+    padding:10;
+    overflow:hidden;
+    height: 100vh;
+    background-image: url('noite.gif');
+    font-family:fonte;
+    text-align: center;
+}
+#feliz{
+  font-family:crismas;
+  font-size: 2.50rem;
+  text-transform: uppercase;
+  background-image: linear-gradient(to right, #ff1111, #ffffff, #32c916);
+   -webkit-background-clip: text;
+    position: relative;
+    color:transparent;
+    animation: aninate 1s linear infinite;
+    background-size: 1000%;
+    
+}
+
+@keyframes aninate 
+{
+  0% {
+    background-position: 0%, 100% ;
+  }
+  50% {
+    background-position: 100%, 0% ;
+  }
+  100% {
+    background-position: 0%, 100% ;
+  }
+}
+h1{
+  font-family: crismas;
+  color: #fff;
+}
+img{
+max-width:80%;
+}
+p{
+  color:#fff;
+}
+
